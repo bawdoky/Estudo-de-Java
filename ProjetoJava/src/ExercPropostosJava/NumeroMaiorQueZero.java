@@ -1,11 +1,10 @@
 package ExercPropostosJava;
+/**	Exercício 1
+	Crie uma aplicação que leia 4 valores e retorne
+	no console o valor maior que zero. Inserir os numeros = {200, -190, -20, 87};
+*/
 
 import java.util.Scanner;
-
-/*	Exercício 1
- 	Crie uma aplicação que leia 4 valores e retorne
- 	no console o valor maior que zero. Inserir os numeros = {200, -190, -20, 87};
- */
 
 public class NumeroMaiorQueZero {
 	
@@ -29,6 +28,7 @@ public class NumeroMaiorQueZero {
 		else if (numero==0) { //&&: E
 			System.out.printf("\n Numero:"+numero+" igual a 0");
 		}
+		
 		// Abaixo (SENÃO)
 		else {
 			System.out.printf("\n Numero:"+numero+" menor que 0");
